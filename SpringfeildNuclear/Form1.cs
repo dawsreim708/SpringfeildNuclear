@@ -13,7 +13,7 @@ namespace SpringfeildNuclear
 {
 
     public partial class Form1 : Form
-    {
+    { 
         public Form1()
         {
             InitializeComponent();
@@ -32,8 +32,7 @@ namespace SpringfeildNuclear
         private void StartButton_Click(object sender, EventArgs e)
         {
             label1.Text = "Reactor Unstable";
-            bool asdf = true;
-            while (asdf == true)
+            
             {
                 Button1.BackColor = Color.Red;
                 Button2.BackColor = Color.Red;
@@ -55,10 +54,9 @@ namespace SpringfeildNuclear
         private void Label2_Click(object sender, EventArgs e)
         {
            
-            asdf = false;
             Button1.BackColor = Color.Green;
             Button2.BackColor = Color.Green;
-            label1.Text = "Reactor Stable";
+            label1.Text = "pepee popoo";
         }
     }
 }
